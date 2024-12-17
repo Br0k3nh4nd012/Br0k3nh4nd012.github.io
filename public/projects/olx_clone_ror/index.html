@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="Ever wondered how platforms like OLX handle ad posts, user interaction, and product management? Well, I built a clone of it using Ruby on Rails 6, packed with features like secure user authentication, ad posting, and smooth listing management.
+📂📑 Explore the code at Githu Repo 🔗
+Why This Project Is Cool: Dynamic Ad Listings: Create, browse, update, or delete ads with ease. Got stuff to sell? Post it! Looking for deals? Browse the listings without any hiccups. Secure User Authentication: Integrated Devise for simple and secure user sign-ups, logins, and password resets, keeping your account and data safe while you&rsquo;re exploring and posting. PostgreSQL Power: Using PostgreSQL as the database ensures smooth handling of all data, even as the platform grows with new ads and users. Admin Panel Awesomeness: With ActiveAdmin, admins can easily manage users, ads, and flagged content through a simple and powerful dashboard. Soft Deletion with Paranoia: Accidental deletions? No problem! Paranoia allows you to recover deleted posts and records—peace of mind for everyone. What’s Under The Hood? Rails 6 to power the back end, delivering fast, stable, and scalable code Puma web server to handle multiple requests and keep everything running smoothly PostgreSQL handles all the storage, ensuring the app remains efficient and scalable. How It Works: User Authentication: Users sign up or log in using Devise and can create and manage their ads. Admin Dashboard: ActiveAdmin lets administrators easily control ads, monitor flagged content, and manage user data. Ad Management: Users can manage their ads from posting new items to updating or deleting them—all stored and handled via PostgreSQL. Fun Factor? 💥 This project is an excellent example of combining functionality with creativity, making something that’s not just useful, but also fun to build! From the database setup to the sleek user interface, it was an awesome journey of turning a simple idea into a fully functioning, production-ready application.
+" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="http://localhost:1313/projects/olx_clone_ror/" />
+
+
+    <title>
+        
+            OLX Clone using Ruby on Rails :: Hey👋!.. I am Gokul 
+        
+    </title>
+
+
+
+
+
+  <link rel="stylesheet" href="/main.min.244183cde1a38e0b08f82c11791181288f9aac1cc9618cd6f4e9e7710c5768ba.css" integrity="sha256-JEGDzeGjjgsI&#43;CwReRGBKI&#43;arBzJYYzW9OnncQxXaLo=" crossorigin="anonymous">
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+
+  <meta itemprop="name" content="OLX Clone using Ruby on Rails">
+  <meta itemprop="description" content="Ever wondered how platforms like OLX handle ad posts, user interaction, and product management? Well, I built a clone of it using Ruby on Rails 6, packed with features like secure user authentication, ad posting, and smooth listing management.
+📂📑 Explore the code at Githu Repo 🔗
+Why This Project Is Cool: Dynamic Ad Listings: Create, browse, update, or delete ads with ease. Got stuff to sell? Post it! Looking for deals? Browse the listings without any hiccups. Secure User Authentication: Integrated Devise for simple and secure user sign-ups, logins, and password resets, keeping your account and data safe while you’re exploring and posting. PostgreSQL Power: Using PostgreSQL as the database ensures smooth handling of all data, even as the platform grows with new ads and users. Admin Panel Awesomeness: With ActiveAdmin, admins can easily manage users, ads, and flagged content through a simple and powerful dashboard. Soft Deletion with Paranoia: Accidental deletions? No problem! Paranoia allows you to recover deleted posts and records—peace of mind for everyone. What’s Under The Hood? Rails 6 to power the back end, delivering fast, stable, and scalable code Puma web server to handle multiple requests and keep everything running smoothly PostgreSQL handles all the storage, ensuring the app remains efficient and scalable. How It Works: User Authentication: Users sign up or log in using Devise and can create and manage their ads. Admin Dashboard: ActiveAdmin lets administrators easily control ads, monitor flagged content, and manage user data. Ad Management: Users can manage their ads from posting new items to updating or deleting them—all stored and handled via PostgreSQL. Fun Factor? 💥 This project is an excellent example of combining functionality with creativity, making something that’s not just useful, but also fun to build! From the database setup to the sleek user interface, it was an awesome journey of turning a simple idea into a fully functioning, production-ready application.">
+  <meta itemprop="datePublished" content="2024-12-03T23:28:39+05:30">
+  <meta itemprop="dateModified" content="2024-12-03T23:28:39+05:30">
+  <meta itemprop="wordCount" content="332">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="OLX Clone using Ruby on Rails">
+  <meta name="twitter:description" content="Ever wondered how platforms like OLX handle ad posts, user interaction, and product management? Well, I built a clone of it using Ruby on Rails 6, packed with features like secure user authentication, ad posting, and smooth listing management.
+📂📑 Explore the code at Githu Repo 🔗
+Why This Project Is Cool: Dynamic Ad Listings: Create, browse, update, or delete ads with ease. Got stuff to sell? Post it! Looking for deals? Browse the listings without any hiccups. Secure User Authentication: Integrated Devise for simple and secure user sign-ups, logins, and password resets, keeping your account and data safe while you’re exploring and posting. PostgreSQL Power: Using PostgreSQL as the database ensures smooth handling of all data, even as the platform grows with new ads and users. Admin Panel Awesomeness: With ActiveAdmin, admins can easily manage users, ads, and flagged content through a simple and powerful dashboard. Soft Deletion with Paranoia: Accidental deletions? No problem! Paranoia allows you to recover deleted posts and records—peace of mind for everyone. What’s Under The Hood? Rails 6 to power the back end, delivering fast, stable, and scalable code Puma web server to handle multiple requests and keep everything running smoothly PostgreSQL handles all the storage, ensuring the app remains efficient and scalable. How It Works: User Authentication: Users sign up or log in using Devise and can create and manage their ads. Admin Dashboard: ActiveAdmin lets administrators easily control ads, monitor flagged content, and manage user data. Ad Management: Users can manage their ads from posting new items to updating or deleting them—all stored and handled via PostgreSQL. Fun Factor? 💥 This project is an excellent example of combining functionality with creativity, making something that’s not just useful, but also fun to build! From the database setup to the sleek user interface, it was an awesome journey of turning a simple idea into a fully functioning, production-ready application.">
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2024-12-03 23:28:39 &#43;0530 IST" />
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text ">
+                Br0k3nh4nd012!</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/blogs/">Blogs</a></li><li><a href="/projects/">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+                <span class="theme-toggle not-selectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+   <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+   3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+   13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+ </svg></span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="http://localhost:1313/projects/olx_clone_ror/">OLX Clone using Ruby on Rails</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p>Ever wondered how platforms like <strong>OLX</strong> handle ad posts, user interaction, and product management? Well, I built a clone of it using <strong>Ruby on Rails 6</strong>, packed with features like secure user authentication, ad posting, and smooth listing management.</p>
+<p>📂📑  Explore the code at <a href="https://github.com/Br0k3nh4nd012/sampleOLX--ROR"><strong>Githu Repo</strong></a> 🔗</p>
+<h2 id="why-this-project-is-cool">Why This Project Is Cool:</h2>
+<ul>
+<li><strong>Dynamic Ad Listings</strong>: Create, browse, update, or delete ads with ease. Got stuff to sell? Post it! Looking for deals? Browse the listings without any hiccups.</li>
+<li><strong>Secure User Authentication</strong>: Integrated <strong>Devise</strong> for simple and secure user sign-ups, logins, and password resets, keeping your account and data safe while you&rsquo;re exploring and posting.</li>
+<li><strong>PostgreSQL Power</strong>: Using <strong>PostgreSQL</strong> as the database ensures smooth handling of all data, even as the platform grows with new ads and users.</li>
+<li><strong>Admin Panel Awesomeness</strong>: With <strong>ActiveAdmin</strong>, admins can easily manage users, ads, and flagged content through a simple and powerful dashboard.</li>
+<li><strong>Soft Deletion with Paranoia</strong>: Accidental deletions? No problem! <strong>Paranoia</strong> allows you to recover deleted posts and records—peace of mind for everyone.</li>
+</ul>
+<h2 id="whats-under-the-hood">What’s Under The Hood?</h2>
+<ul>
+<li><strong>Rails 6</strong> to power the back end, delivering fast, stable, and scalable code</li>
+<li><strong>Puma</strong> web server to handle multiple requests and keep everything running smoothly</li>
+<li><strong>PostgreSQL</strong> handles all the storage, ensuring the app remains efficient and scalable.</li>
+</ul>
+<h2 id="how-it-works">How It Works:</h2>
+<ol>
+<li><strong>User Authentication</strong>: Users sign up or log in using <strong>Devise</strong> and can create and manage their ads.</li>
+<li><strong>Admin Dashboard</strong>: <strong>ActiveAdmin</strong> lets administrators easily control ads, monitor flagged content, and manage user data.</li>
+<li><strong>Ad Management</strong>: Users can manage their ads from posting new items to updating or deleting them—all stored and handled via <strong>PostgreSQL</strong>.</li>
+</ol>
+<h2 id="fun-factor-">Fun Factor? 💥</h2>
+<p>This project is an excellent example of combining functionality with creativity, making something that’s not just useful, but also fun to build! From the database setup to the sleek user interface, it was an awesome journey of turning a simple idea into a fully functioning, production-ready application.</p>
+<p>Want to dive into the source? Check out the repo and take a peek under the hood!</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+            
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="/bundle.min.e89fda0f29b95d33f6f4224dd9e5cf69d84aff3818be2b0d73e731689cc374261b016d17d46f8381962fb4a1577ba3017b1f23509d894f6e66431f988c00889e.js" integrity="sha512-6J/aDym5XTP29CJN2eXPadhK/zgYvisNc&#43;cxaJzDdCYbAW0X1G&#43;DgZYvtKFXe6MBex8jUJ2JT25mQx&#43;YjACIng=="></script>
+
+
+
+
+    </body>
+</html>
